@@ -4,6 +4,8 @@
  * Module dependencies.
  */
 
+require('dotenv-defaults').config()
+
 var app = require('../app');
 var debug = require('debug')('betterccw-jobscheduler:server');
 var http = require('http');
