@@ -56,7 +56,7 @@ module.exports = function() {
         axios.post(db_path, reqBody, {
             headers: {'Content-Type': 'application/json'}
         }).then((response) => {
-            res.status(response.status).send('OK')
+            res.status(response.status).send(reqBody)
         }).catch(error => {
             console.error(error)
             res.status(500).send('ERROR')
