@@ -13,7 +13,7 @@
     "dotenv-defaults": "^2.0.1",
     "express": "~4.17.1",
     "express-openapi": "^9.0.1",
-    "http-errors": "~1.8.0",
+    "http-errors": "~1.8.1",
     "moment": "^2.29.1",
     "morgan": "~1.10.0",
     "swagger-ui-express": "^4.1.6"
