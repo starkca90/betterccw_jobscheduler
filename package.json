@@ -15,7 +15,7 @@
     "express-openapi": "^9.0.1",
     "http-errors": "~1.8.0",
     "moment": "^2.29.1",
-    "morgan": "~1.10.0",
+    "morgan": "~1.10.1",
     "swagger-ui-express": "^4.1.6"
   }
 }
